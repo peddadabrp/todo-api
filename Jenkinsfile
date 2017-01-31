@@ -1,6 +1,6 @@
 node {
 
-env.PATH="${tool 'Maven 3.x'}/bin:${env.PATH}"
+env.PATH="${tool 'M2'}/bin:${env.PATH}"
 stage 'development'
 	
 	sh 'mvn clean install'
